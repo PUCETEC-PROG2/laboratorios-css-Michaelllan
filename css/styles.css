@@ -1,4 +1,5 @@
 /* Los estilos se aplican a todo el documento */
 body {
-    
+    background-image: linear-gradient(135deg , rgba(16, 80, 209, 0), rgba(92, 151, 15, 0))
+    url('../assent/imagenes/fondo-de-desarrollo-software-web-pantalla-y-monitor-programación-real-codificación-php-tecnología-azul-244627761.webp');
 }
