@@ -1,5 +1,11 @@
-/* Los estilos se aplican a todo el documento */
+/* --- PRUEBA DE CONEXIÓN --- */
 body {
-    background-image: linear-gradient(135deg , rgba(16, 80, 209, 0), rgba(92, 151, 15, 0))
-    url('../assent/imagenes/fondo-de-desarrollo-software-web-pantalla-y-monitor-programación-real-codificación-php-tecnología-azul-244627761.webp');
+    background-color: red !important; /* Esto pondrá la pantalla ROJA si funciona */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.Sociales {
+    width: 50px;
+    border: 2px solid yellow; /* Borde amarillo para ver si detecta la clase */
 }
