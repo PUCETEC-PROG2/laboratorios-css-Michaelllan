@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
-
-
 body {
-    background-image: linear-gradient(135deg, rgba(42, 42, 42, 0.3), rgba(209, 209, 209, 0.3)), /* Faltaba esta coma */
-                      url('../assent/images/background.jpg'); /* Verifica si es 'assent' o 'assets' */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh; /* Añade esto para que el fondo cubra toda la pantalla */
-    margin: 0;
-
-
+    background-image: linear-gradient(135deg, rgba(42, 42, 42, 0.3),  rgba(209, 209, 209, 0.3) )
+        url('../assets/images/background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: #27257a;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: normal;
+   
 }
 
 .social-icons{
@@ -24,24 +23,27 @@ body {
 }
 
 .social-icons img{
-    width: 48px;
+    width: 30px;
 }
 
 header{
     margin: 32px auto;
+    text-align: center;
     max-width: 800px;
 
 }
 
 
-header h1 {
+header h1{
     margin-top: 32px;
     text-align: center;
     font-weight: 500;
-    line-height: 1.2; /* Cambia el 16 por 1.2 */
+    line-height: 1.2;
 }
-
-
+header p {
+    margin: 0;           
+    color: #4b0505;      
+}
 .box{
     max-width: 800px;
     border-style: solid;
