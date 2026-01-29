@@ -1,11 +1,77 @@
-/* --- PRUEBA DE CONEXIÓN --- */
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+
+
 body {
-    background-color: red !important; /* Esto pondrá la pantalla ROJA si funciona */
-    color: white;
-    font-family: Arial, sans-serif;
+    background-image: linear-gradient(135deg, rgba(42, 42, 42, 0.3), rgba(209, 209, 209, 0.3)), /* Faltaba esta coma */
+                      url('../assent/images/background.jpg'); /* Verifica si es 'assent' o 'assets' */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Añade esto para que el fondo cubra toda la pantalla */
+    margin: 0;
+
+
 }
 
-.Sociales {
-    width: 50px;
-    border: 2px solid yellow; /* Borde amarillo para ver si detecta la clase */
+.social-icons{
+    list-style: none;
+
+}
+
+.social-icons li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img{
+    width: 48px;
+}
+
+header{
+    margin: 32px auto;
+    max-width: 800px;
+
+}
+
+
+header h1 {
+    margin-top: 32px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.2; /* Cambia el 16 por 1.2 */
+}
+
+
+.box{
+    max-width: 800px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 24px;
+    padding: 0px 0 16px;
+    background-image: linear-gradient(135deg, rgba(136, 128, 128, 0.551), rgba(206, 9, 9, 0));
+}
+
+.box h2{
+    text-align: center;
+
+
+}
+
+.box img{
+    border-radius: 50%;
+    width: 150px;
+
+}
+
+.profile{
+    text-align: center;
+}
+
+footer{
+    margin: 32px auto;
+    max-width: 800px;
+    font-size: 10pt;
+    text-align: center;
 }
